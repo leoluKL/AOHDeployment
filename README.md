@@ -2,7 +2,7 @@
 A practise of deploying AOH platform.
 
 
-`USAGE: Please right click and choose opening link in new tab, otherwise the link wont scroll to the correct chapter position`
+`Note: Open link in new tab please, otherwise the link won't scroll to the correct chapter position`
 
 [Part A. Infrastructure Provisioning by Terraform](./IB%20deployment/Part%20A.%20Infrastructure%20Provisioning%20by%20Terraform.md)
 
