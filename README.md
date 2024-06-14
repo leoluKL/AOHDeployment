@@ -1,6 +1,4 @@
-# AOH Deployment
-A practise of deploying AOH platform.
-
+# A AOH Platform Deployment Practise
 
 `Note: Open link in new tab please, otherwise the link won't scroll to the correct chapter position`
 
