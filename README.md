@@ -2,7 +2,10 @@
 A practise of deploying AOH platform.
 
 
-[aaa](./IB%20deployment/Part%20A.%20Infrastructure%20Provisioning%20by%20Terraform.md#temp)
+
+
+<a href="./IB%20deployment/Part%20A.%20Infrastructure%20Provisioning%20by%20Terraform.md#temp" target="_blank">Link to section in new tab</a>
+
 
 Table of Contents
 
