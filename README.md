@@ -6,7 +6,7 @@ Table of Contents
 
 [Part A. Infrastructure Provisioning by Terraform](./IB%20deployment/Part%20A.%20Infrastructure%20Provisioning%20by%20Terraform.md)
 
-<span style="margin-left:30px;"></span>[1 Preparation](./IB%20deployment/Part%20A.%20Infrastructure%20Provisioning%20by%20Terraform.md#Preparation)
+&nbsp;&nbsp;&nbsp;&nbsp;[1 Preparation](./IB%20deployment/Part%20A.%20Infrastructure%20Provisioning%20by%20Terraform.md#Preparation)
 
 <span style="margin-left:30px;"></span>[2 Provision Infrastructure in AWS](./IB%20deployment/Part%20A.%20Infrastructure%20Provisioning%20by%20Terraform.md#2-provision-infrastructure-in-aws)
 
