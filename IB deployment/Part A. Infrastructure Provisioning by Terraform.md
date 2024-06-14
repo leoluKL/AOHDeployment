@@ -118,7 +118,10 @@ terraform apply
     aws eks update-nodegroup-config --cluster-name new-cluster-name \
     --nodegroup-name ${Actual node group name, like initial_new-cluster-name-...} \
     --scaling-config minSize=2,maxSize=5,desiredSize=3
+    ```
 
+
+    ```bash
     # Scale down cluster to zero node resouce to save cost
     aws eks update-nodegroup-config --cluster-name new-cluster-name \
     --nodegroup-name ${Actual node group name} \
