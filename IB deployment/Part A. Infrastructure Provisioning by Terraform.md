@@ -86,6 +86,9 @@ The entry folder of IaC script is located in ar2-infra/terraform/terraform-aws-e
 
 `NOTE: Item 11 to 15 are not used any more. This part will be removed from the IaC script main.tf.`
 
+# temp
+
+
 
 
 # 2 Provision Infrastructure in AWS

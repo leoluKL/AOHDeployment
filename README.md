@@ -2,6 +2,8 @@
 A practise of deploying AOH platform.
 
 
+[aaa](./IB%20deployment/Part%20A.%20Infrastructure%20Provisioning%20by%20Terraform.md#temp)
+
 Table of Contents
 
 [Part A. Infrastructure Provisioning by Terraform](./IB%20deployment/Part%20A.%20Infrastructure%20Provisioning%20by%20Terraform.md)
@@ -9,6 +11,12 @@ Table of Contents
 &nbsp;&nbsp;&nbsp;&nbsp;[1 Preparation](./IB%20deployment/Part%20A.%20Infrastructure%20Provisioning%20by%20Terraform.md#Preparation)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[2 Provision Infrastructure in AWS](./IB%20deployment/Part%20A.%20Infrastructure%20Provisioning%20by%20Terraform.md#2-provision-infrastructure-in-aws)
+
+
+https://github.com/leoluKL/AOHDeployment/blob/main/IB%20deployment/Part%20A.%20Infrastructure%20Provisioning%20by%20Terraform.md#2-provision-infrastructure-in-aws
+
+https://github.com/leoluKL/AOHDeployment/blob/main/IB%20deployment/Part%20A.%20Infrastructure%20Provisioning%20by%20Terraform.md#2-provision-infrastructure-in-aws
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;[3 Post Setup](./IB%20deployment/Part%20A.%20Infrastructure%20Provisioning%20by%20Terraform.md#3-post-setup)
     
