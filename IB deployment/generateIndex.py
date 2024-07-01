@@ -5,8 +5,21 @@ def number_headings(md_content):
     header_counter = [0] * 6  # Supports up to 6 levels of headers
     lines = md_content.split('\n')
     new_lines = []
+    in_code_block = False  # State variable to track whether we're inside a code block
+
     
     for line in lines:
+        # Check if we are entering or exiting a code block
+        if line.strip().startswith('```'):
+            in_code_block = not in_code_block
+            new_lines.append(line)
+            continue
+
+        # If we're inside a code block, just add the line unmodified
+        if in_code_block:
+            new_lines.append(line)
+            continue
+        
         # Match headings and ignore existing numbers
         match = re.match(r'^(#+)\s*(\d+(\.\d+)*)*\s*(.*)$', line)
         if match:
