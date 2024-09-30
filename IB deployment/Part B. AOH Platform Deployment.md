@@ -169,6 +169,7 @@ Follow below steps to publish the AOH platform to public domain.
     - store-admin.stenmss.org (MinIO portal)
     - web.stenmss.org (AOH portal)
     - web.stenmss.org/workflow-designer (ESOP designer view)
+    - wf-admin.stenmss.org (Temporalio admin portal)
 - Modify the Traefik ingress route setting to the correct domain name. 
 
     There are a lot of ingressroute setting currently not pointing to your public doamin in ar2-infra and ar2-web-infra. Such as in ar2-infra\argocd\new-cluster-name\manifests\traefik folder, a file admin-argo.yml uses cd-admin.wfm-qa.agilrad.com. You need to search in all repositories for all occurance of "wfm-qa.agilrad.com", replace them with your own public domain name, such as "stenmss.org"
