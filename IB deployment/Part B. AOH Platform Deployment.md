@@ -162,10 +162,13 @@ Follow below steps to publish the AOH platform to public domain.
     ![AWS Sample domain records](./imgs/samplehostedzonerecords.png)
 
     A few important url records are 
+    - 
     - iam-admin.stenmss.org/admin/master/console/#/ar2/clients (KeyCloak portal)
-    - cd-admin.stenmss.ort (ArgoCD portal)
+    - cd-admin.stenmss.org (ArgoCD portal)
     - hasura.stenmss.org (Hasura portal)
     - store-admin.stenmss.org (MinIO portal)
+    - web.stenmss.org (AOH portal)
+    - web.stenmss.org/workflow-designer (ESOP designer view)
 - Modify the Traefik ingress route setting to the correct domain name. 
 
     There are a lot of ingressroute setting currently not pointing to your public doamin in ar2-infra and ar2-web-infra. Such as in ar2-infra\argocd\new-cluster-name\manifests\traefik folder, a file admin-argo.yml uses cd-admin.wfm-qa.agilrad.com. You need to search in all repositories for all occurance of "wfm-qa.agilrad.com", replace them with your own public domain name, such as "stenmss.org"
